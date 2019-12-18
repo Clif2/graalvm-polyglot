@@ -46,7 +46,7 @@ const BigInteger = Java.type('java.math.BigInteger')
 
 
 app.get('/', function (req, res) {
-  //var text = '<h1>Hello World from Graal.js!</h1><br>'
+  var text = '<h1>Hello World from Graal.js!</h1><br>'
   // text += '<h2>we can update!</h2><br>'
 
   // Using Java standard library classes
